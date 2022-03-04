@@ -79,6 +79,11 @@ h2 {
     transform: scale(1.02);
 }
 
+.btn[disabled]:hover {
+    cursor: not-allowed;
+    transform: none;
+}
+
 
 /* Quiz Styling */
 
