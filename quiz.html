@@ -6,8 +6,30 @@
     <meta name="description" content="The Big Bang Theory Quiz">
     <meta name="keywords" content="The Big Bang Theory, Quiz, Game, Multiple Choice Quiz">
     <title>Quiz Page</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    
+    <div class="container">
+        <div id="game" class="justify-center flex-column">
+            <div id="hud">
+                <div class="hud-item">
+                    <p id="progressText" class="hud-prefix">
+                        QWuestion
+                    </p>
+                    <div id="progressBar">
+                        <div id="progressBarFull"></div>
+                    </div>
+                </div>
+                <div class="hud-item">
+                    <p class="hud-prefix">
+                        Score
+                    </p>
+                    <h1 class="hud-main-text" id="score">
+                        0
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
