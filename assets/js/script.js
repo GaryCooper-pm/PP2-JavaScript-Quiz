@@ -1,16 +1,16 @@
 // Quiz JavaScript
 
-const question = document.querySelector('#question');
-const choices = Array.from(document.querySelectorAll('.choice-text'));
-const progressText = document.querySelector('#progressText');
-const scoreText = document.querySelector('#score');
-const progressBarFull = document.querySelector('#progressBarFull');
+const question = document.querySelector('#question')
+const choices = Array.from(document.querySelectorAll('.choice-text'))
+const progressText = document.querySelector('#progressText')
+const scoreText = document.querySelector('#score')
+const progressBarFull = document.querySelector('#progressBarFull')
 
-let currentQuestion = {};
-let acceptingAnswers = true;
-let score = 0;
-let questionCount = 0;
-let availableQuestions = [];
+let currentQuestion = {}
+let acceptingAnswers = true
+let score = 0
+let questionCount = 0
+let availableQuestions = []
 
 let questions = [
     {
@@ -158,6 +158,20 @@ let questions = [
 const SCORE_POINTS = 10
 const MAX_QUESTIONS = 20
 
+startGame = () => {
+    questionCounter = 0
+    score = 0
+    availableQuestions = [...questions]
+    getNewQuestion()
+}
+
+getNewQuestion = () => {
+    if(availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
+        localStorage.setItem('mostRecentScore', score)
+
+        return window.location.assign('/endquiz.html')
+    }
+}
 
 
 // End Quiz Javascript
