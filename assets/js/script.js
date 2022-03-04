@@ -171,6 +171,10 @@ getNewQuestion = () => {
 
         return window.location.assign('/endquiz.html')
     }
+
+    questionCounter++
+    progressText.innerText = `Question ${questionCounter} of ${MAX_QUESTIONS}`
+    progressBarFull.getElementsByClassName.width = `${(questionCounter/MAX_QUESTIONS) * 100}%`
 }
 
 
