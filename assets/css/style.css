@@ -85,7 +85,7 @@ h2 {
 }
 
 #highscore-btn {
-    background: linear-gradient(180deg, rgb(255, 180, 10) 0%, rgb(240, 140, 5) 100%);
+    background: linear-gradient(180deg, #fb1 0%, #f90 100%);
 }
 
 .fa-crown {
@@ -124,12 +124,18 @@ h2 {
     width: 100%;
 }
 
+.correct {
+    background: linear-gradient(45deg, #090 0%, #070 100%);
+}
+
+.incorrect {
+    background: linear-gradient(45deg, #a00 0%, #730 100%);
+}
 
 @media screen and (max-width: 768px) {
     .choice-container {
         min-width: 40rem;
-    }
-    
+    }   
 }
 
 /* Highscores Page Styling */
