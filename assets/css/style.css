@@ -107,5 +107,10 @@ h2 {
     min-width: 80rem;
 }
 
+.choice-container:hover {
+    cursor: pointer;
+    transition: transform 150ms;
+    transform: scale(1.02);
+}
 
 /* Highscores Page Styling */
