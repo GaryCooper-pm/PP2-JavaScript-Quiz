@@ -73,6 +73,12 @@ h2 {
     border-radius: 10px;
 }
 
+.btn:hover {
+    cursor: pointer;
+    transition: transform 150ms;
+    transform: scale(1.02);
+}
+
 
 /* Quiz Styling */
 
