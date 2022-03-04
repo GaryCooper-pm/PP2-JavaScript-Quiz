@@ -13,6 +13,10 @@
     font-family: 'Source Code Pro', sans-serif;
 }
 
+.logo {
+    height: 20rem;
+}
+
 h1 {
     font-size: 5.4rem;
     color: #444;
@@ -22,6 +26,15 @@ h1 {
 h2 {
     font-size: 4.2rem;
     margin-bottom: 4rem;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
 }
 
 
