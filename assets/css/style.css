@@ -70,6 +70,7 @@ h2 {
     text-decoration: none;
     color: #fff;
     background: linear-gradient(180deg, #d22 0%, #d44 100%);
+    border-radius: 10px;
 }
 
 
