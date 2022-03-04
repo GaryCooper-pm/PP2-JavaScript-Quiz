@@ -14,7 +14,7 @@
 }
 
 .logo {
-    height: 20rem;
+    width: 20rem;
 }
 
 h1 {
@@ -37,6 +37,11 @@ h2 {
     max-width: 80rem;
     margin: 0 auto;
     padding: 2rem;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
 }
 
 
