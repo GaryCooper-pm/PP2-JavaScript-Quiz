@@ -156,6 +156,12 @@ h2 {
     overflow: hidden;
 }
 
+#progressBarFull {
+    height: 100%;
+    background: #d22;
+    width: 0%;
+}
+
 
 @media screen and (max-width: 768px) {
     .choice-container {
