@@ -132,6 +132,14 @@ h2 {
     background: linear-gradient(45deg, #a00 0%, #730 100%);
 }
 
+/* Heads up Display */
+#hud {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
 @media screen and (max-width: 768px) {
     .choice-container {
         min-width: 40rem;
