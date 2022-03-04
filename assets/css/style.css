@@ -113,4 +113,9 @@ h2 {
     transform: scale(1.02);
 }
 
+.choice-prefix {
+    padding: 2rem 2.5rem;
+    color: #fff;
+}
+
 /* Highscores Page Styling */
