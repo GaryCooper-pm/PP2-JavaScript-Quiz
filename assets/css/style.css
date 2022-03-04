@@ -88,6 +88,12 @@ h2 {
     background: linear-gradient(180deg, rgb(255, 180, 10) 0%, rgb(240, 140, 5) 100%);
 }
 
+.fa-crown {
+    font-size: 2.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
 
 /* Quiz Styling */
 
