@@ -133,7 +133,7 @@ let questions = [
         answer: 1,
     },
     {
-        question: 'Which band sing The Big Bang Theory theme song?,
+        question: 'Which band sing The Big Bang Theory theme song?',
         choice1: 'The Lab Kids',
         choice2: 'The Rembrandts',
         choice3: 'Barenaked Ladies',
