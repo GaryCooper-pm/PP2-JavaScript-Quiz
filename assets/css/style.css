@@ -183,7 +183,36 @@ input {
     border: 0.2rem solid #444;
 }
 
+input::placeholder {
+    color: #444;
+}
+
+#username {
+    margin-bottom: 3rem;
+    width: 100%;
+}
+
+#end-text {
+    font-size: 2.4rem;
+    color: #444;
+    text-align: center;
+}
+
+#saveScoreBtn {
+    border: none;
+}
+
 /* Highscores Page Styling */
+
+#highScoresList {
+    list-style: none;
+    margin-bottom: 4rem;
+}
+
+.high-score {
+    font-size: 2.8rem;
+    margin-bottom: 0.5rem;
+}
 
 /* Media Queries */
 
