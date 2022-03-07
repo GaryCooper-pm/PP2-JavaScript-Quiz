@@ -127,11 +127,11 @@ h2 {
 }
 
 .correct {
-    background: linear-gradient(45deg, #090 0%, #070 100%);
+    background: linear-gradient(360deg, #090 0%, #070 100%);
 }
 
 .incorrect {
-    background: linear-gradient(45deg, #a00 0%, #730 100%);
+    background: linear-gradient(360deg, #fa0 0%, #d60 100%);
 }
 
 /* Heads up Display */
@@ -193,6 +193,21 @@ h2 {
     font-size: 2.1rem;
     color: #444;
     margin-bottom: 2rem;
+}
+
+#progressBar {
+    width: 10rem;
+    height: 1.5rem;
+    border: 0.1rem solid #d22;
+    margin-top: 1rem;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+#progressBarFull {
+    height: 100%;
+    background: #d22;
+    width: 0%;
 }
 
 /* Highscores Page Styling */
