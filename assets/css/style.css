@@ -175,6 +175,14 @@ h2 {
     max-width: 30rem;
 }
 
+input {
+    margin-bottom: 1rem;
+    width: 20rem;
+    padding: 1.5rem;
+    font-size: 1.8rem;
+    border: 0.2rem solid #444;
+}
+
 /* Highscores Page Styling */
 
 /* Media Queries */
