@@ -96,11 +96,30 @@ By creating separate game stage pages and JavaScript files for the different ele
 
 ### Checked accessibility through [Lighthouse](https://developers.google.com/web/tools/lighthouse)
 
+Main Page
+
+![Index](docs/images/lighthouse-index.JPG)
+
+Quiz Page
+
+![Quiz](docs/images/lighthouse-quiz.JPG)
+
+Enter Username Page
+
+![End Quiz](docs/images/lighthouse-endquiz.JPG)
+
+Leaderboard/High Scores Page
+
+![End Quiz](docs/images/lighthouse-leaderboard.JPG)
 
 
 # BUGS AND PROBLEMS
 
 There was an issue with the Save button on the End Quiz page where by it was not activating.  After review of the JavaScript it was due to a const variable being used twice.  To resolve this I created a new JavaScript file (endquiz.js) to write all the End Quiz JavaScript code.
+
+Once I had deployed my project to GitHub Pages and ran through the quiz to test everything, I was met with a 404 page error after answering the final question.  The next screen/page was not being called.  After stepping through my code and chatting with fellow student [Chris Williams](https://github.com/Chr15w1986) I realised I had missed removing two of the absolute file paths in the script.js file and the endquiz.js file.
+
+After these were corrected and everything commit and pushed through I re-ran my tests and everything worked as it should.
 
 
 # DEPLOYMENT
@@ -114,7 +133,7 @@ There was an issue with the Save button on the End Quiz page where by it was not
     * Commands used for version control during the project;
         * `git add "example file name"` to add files to stage
         * `git commit -m "commit message"`
-        * `git push` to puch changes through to main in github
+        * `git push` to push changes through to main in github
 <p>&nbsp;</p>
 
 ## Gitpod
