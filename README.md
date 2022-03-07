@@ -82,16 +82,46 @@ By creating separate game stage pages and JavaScript files for the different ele
 
 ### Passed my html code through [W3C Markup Validator](https://validator.w3.org/)
 
+* Index/Home page _index.html_
+
+[Index html code pass](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgarycooper-pm.github.io%2FPP2-JavaScript-Quiz%2Findex.html)
+
+![W3C Validation](docs/images/indexhtml.JPG)
+
+* Quiz page _quiz.html_
+
+[Quiz html code pass](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgarycooper-pm.github.io%2FPP2-JavaScript-Quiz%2Fquiz.html)
+
+![W3C Validation](docs/images/quizhtml.JPG)
+
+* End of Quiz page _endquiz.html_
+
+[End of Quiz html code pass](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgarycooper-pm.github.io%2FPP2-JavaScript-Quiz%2Fendquiz.html)
+
+![W3C Validation](docs/images/endquizhtml.JPG)
+
+* High Scores / Leaderboard page _highscores.html_
+
+[High Scores / Leaderboard html code pass](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgarycooper-pm.github.io%2FPP2-JavaScript-Quiz%2Fhighscores.html)
+
+![W3C Validation](docs/images/highscoreshtml.JPG)
+
 
 
 ### Passed my CSS code through JIGSAW [W3C CSS Validator](https://validator.w3.org/)
 
+* style.css
+
+[Style css code pass](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fgarycooper-pm.github.io%2FPP2-JavaScript-Quiz%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+![W3C Validation](docs/images/stylecss.JPG)
 
 
-### Passed my JavaScript code through BeautifyTools.com [Beautify Tools](https://beautifytools.com/javascript-validator.php)
+### Passed my JavaScript code through Code Beautify [Code Beautify](https://codebeautify.org/jsvalidate)
 
 ### Checked responsiveness through [ami.responsivedesign.is website](http://ami.responsivedesign.is/)
 
+![Am I Responsive](docs/images/ami-responsive.JPG)
 
 
 ### Checked accessibility through [Lighthouse](https://developers.google.com/web/tools/lighthouse)
@@ -117,7 +147,7 @@ Leaderboard/High Scores Page
 
 There was an issue with the Save button on the End Quiz page where by it was not activating.  After review of the JavaScript it was due to a const variable being used twice.  To resolve this I created a new JavaScript file (endquiz.js) to write all the End Quiz JavaScript code.
 
-Once I had deployed my project to GitHub Pages and ran through the quiz to test everything, I was met with a 404 page error after answering the final question.  The next screen/page was not being called.  After stepping through my code and chatting with fellow student [Chris Williams](https://github.com/Chr15w1986) I realised I had missed removing two of the absolute file paths in the script.js file and the endquiz.js file.
+Once I had deployed my project to GitHub Pages and ran through the quiz to test everything, I was met with a 404 page error after answering the final question.  The next screen/page was not being called.  After stepping through my code and chatting with fellow student [Chris Williams](https://github.com/Chr15w1986), I realised I had missed removing two of the absolute file paths in the script.js file and the endquiz.js file.
 
 After these were corrected and everything commit and pushed through I re-ran my tests and everything worked as it should.
 
@@ -176,6 +206,10 @@ My wife Clare and daughters Grace and Emily for their patience and allowing me t
 
 My business partner Damian for his support and belief in me.
 
-My good friend Barry 'Bazzar' Martin for his ears listening to me constantly wittering on about this module while we were out riding our mountain bikes.
+My good friend Barry 'Bazzar' Martin for his ears, listening to me constantly wittering on about this module while we were out riding our mountain bikes.
+
+Once again [Chris Williams](https://github.com/Chr15w1986) for being on the other end of the phone when I need to talk through issues.
+
+FINALLY - I dedicate this project to my father in-law Peter Clifford Lees who sadly passed away during the later stages of this project and was unable to see it completed.  R.I.P Peter!
 
 ---
