@@ -90,7 +90,7 @@ h2 {
     background: linear-gradient(180deg, #fb1 0%, #f90 100%);
 }
 
-.fa-crown {
+.fa-crown, .fa-home {
     font-size: 2.5rem;
     margin-left: 1rem;
     margin-right: 1rem;
@@ -165,6 +165,18 @@ h2 {
     width: 0%;
 }
 
+/* End Quiz Page Styling */
+
+.end-form-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 30rem;
+}
+
+/* Highscores Page Styling */
+
 /* Media Queries */
 
 @media screen and (max-width: 768px) {
@@ -172,6 +184,3 @@ h2 {
         min-width: 40rem;
     }   
 }
-
-/* Highscores Page Styling */
-
