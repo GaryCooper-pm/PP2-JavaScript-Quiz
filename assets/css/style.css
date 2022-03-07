@@ -170,44 +170,8 @@ h2 {
 @media screen and (max-width: 768px) {
     .choice-container {
         min-width: 40rem;
-    }
-}
-
-@media screen and (max-width: 375px) {
-    .choice-container {
-        min-width: 15rem;
-    }
-}
-
-.logo {
-    width: 10rem;
-}
-
-h1 {
-    font-size: 2.7rem;
-    color: #444;
-    margin-bottom: 2.5rem;
-}
-
-h2 {
-    font-size: 2.1rem;
-    color: #444;
-    margin-bottom: 2rem;
-}
-
-#progressBar {
-    width: 10rem;
-    height: 1.5rem;
-    border: 0.1rem solid #d22;
-    margin-top: 1rem;
-    border-radius: 50px;
-    overflow: hidden;
-}
-
-#progressBarFull {
-    height: 100%;
-    background: #d22;
-    width: 0%;
+    }   
 }
 
 /* Highscores Page Styling */
+
