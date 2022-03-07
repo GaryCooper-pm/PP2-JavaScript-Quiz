@@ -15,15 +15,16 @@ For my second project I decided to create a short multiple choice quiz based on 
 
 ---
 
-# TABLE OF CONTENTS
-1.[USER STORY](#user-story)
-2.[STRUCTURE](#structure)
-3.[DESIGN](#design)
-4.[TECHNOLOGIES USED](#technologies-used)
-5.[TESTING](#testing)
-6.[BUGS AND PROBLEMS](#bugs-and-problems)
-7.[DEPLOYMENT](#deployment)
-8.[CREDITS AND ACKNOWLEDGEMENT](#credits-and-achknowledgement)
+# TABLE OF CONTENT
+1. [USER STORY](#user-story)
+2. [STRUCTURE](#structure)
+3. [DESIGN](#design)
+4. [TECHNOLOGIES USED](#technologies-used)
+5. [TESTING](#testing)
+6. [BUGS AND PROBLEMS](#bugs-and-problems)
+7. [DEPLOYMENT](#deployment)
+8. [CREDITS AND ACKNOWLEDGEMENT](#credits-and-acknowledgement)
+
 
 # USER STORY
 ### Visitor to the website
@@ -42,4 +43,120 @@ I wanted to keep the color pallette simple, utilising the colors within the main
 
 
 ### Icons
-The only icon I used in the project was the Crown icon for the High Scores button and was from [FontAwesome](https://fontawesome.com/).
+The only icons I used in the project were the Crown icon for the High Scores button and the House icon for the Return Home button which were from [FontAwesome](https://fontawesome.com/).
+
+
+# TECHNOLOGIES USED
+* HTML
+    * Each page was built using HTML5.
+* CSS
+    * The styling, layout and media queries were done using CSS.
+* JavaScript
+    * The bulk of the quiz code was built using JavaScript.
+* Adobe Photoshop
+    * The logo was edited to remove the white background to create the png file used.
+* GITPOD
+  * The IDE used to code this website.
+* GIT
+  * For version control, commiting and pushing to github.
+* GITHUB
+  * Used to store repositories, files and images pushed from gitpod.
+* CHROME Developer tools
+  * For checking compatibilty, troubleshooting and editing code.
+* Am I Responsive
+  * Used to test responsiveness of the website at different screen sizes.
+* FONTAWESOME
+  * Used for the style elements on the High Scores button and the Return Home button.
+
+
+## Development Environment
+* [Gitpod](https://gitpod.io): The online IDE I used to write my code in.
+* [Github](https://github.com): My repository is housed here.
+* I used Google Chrome on a Windows PC for all my work.
+
+
+# TESTING
+
+Throughout this project I was testing each step of the way when writing my JavaScript to ensure any bugs or problems were identified and resolved early on so as to avoid extensive debugging.
+By creating separate game stage pages and JavaScript files for the different elements I was able to easily test and debug smaller sections of code. 
+
+### Passed my html code through [W3C Markup Validator](https://validator.w3.org/)
+
+
+
+### Passed my CSS code through JIGSAW [W3C CSS Validator](https://validator.w3.org/)
+
+
+
+### Passed my JavaScript code through BeautifyTools.com [Beautify Tools](https://beautifytools.com/javascript-validator.php)
+
+### Checked responsiveness through [ami.responsivedesign.is website](http://ami.responsivedesign.is/)
+
+
+
+### Checked accessibility through [Lighthouse](https://developers.google.com/web/tools/lighthouse)
+
+
+
+# BUGS AND PROBLEMS
+
+There was an issue with the Save button on the End Quiz page where by it was not activating.  After review of the JavaScript it was due to a const variable being used twice.  To resolve this I created a new JavaScript file (endquiz.js) to write all the End Quiz JavaScript code.
+
+
+# DEPLOYMENT
+
+## Github
+### Project Setup:
+    * Create new repository in github
+    * Select Code Institute Full Template
+    * Name and create the repository
+    * On the repository page, CLICK the green GITPOD button to launch gitpod
+    * Commands used for version control during the project;
+        * `git add "example file name"` to add files to stage
+        * `git commit -m "commit message"`
+        * `git push` to puch changes through to main in github
+<p>&nbsp;</p>
+
+## Gitpod
+### Project Setup:
+    * Created basic file structure
+        * assets folder
+            * css folder (sub-folder of assets)
+                * style.css
+            * js folder (sub-folder of assets)
+                * script.js
+                * endquiz.js
+                * highscores.js
+            * images folder (sub-folder of assets)
+        * docs folder
+            * images folder (sub-folder of docs for housing the README.md images)
+        * index.html
+        * quiz.html
+        * endquiz.html
+        * highscores.html
+        * README.md
+
+
+### This site was deployed using GitHub Pages with the following steps:
+
+1. Click on the `Settings` icon at the top of page in the navigation bar
+2. Scroll down until you see `Github Pages`
+3. There will be a message box saying "Check it out here" Click on the link to take you to the next page
+4. Here you will be greated with a form, Choose the repository `PP2-JavaScript-Quiz`
+5. Choose the branch in the drop down box, in this case `MAIN`
+6. Choose the directory in the next drop down box, in this case `Root`
+7. Then click `Save`
+8. It may take a few moments for the site to publish, but once live, the box at the top of the page with the site name will turn green and have a `Green` tick to the left of the link to the live site
+
+
+# CREDITS AND ACKNOWLEDGEMENT
+
+A huge thank you to my [Code Institue](https://codeinstitute.net/global/) mentor Brian O'Hare for his guidance and support.
+
+My wife Clare and daughters Grace and Emily for their patience and allowing me to work evenings and weekends on my project.
+
+My business partner Damian for his support and belief in me.
+
+My good friend Barry 'Bazzar' Martin for his ears listening to me constantly wittering on about this module while we were out riding our mountain bikes.
+
+---
