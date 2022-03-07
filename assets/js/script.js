@@ -105,7 +105,7 @@ let questions = [
         answer: 2,
     },
     {
-        question: 'When Sheldon\'s favourite Chinese restaurant closed down, Leonard bought his takeout from Golden Dragon for two years before Sheldon realised. But what was Sheldon\'s favourite Chinese called?',
+        question: 'What was Sheldon\'s favourite Chinese called?',
         choice1: 'Wing Yip',
         choice2: 'Red Dragon',
         choice3: 'Szechuan Palace',
@@ -219,44 +219,3 @@ incrementScore = num => {
 }
 
 startGame()
-
-
-// End Quiz Javascript
-
-const username = document.querySelector('#username')
-const saveScoreBtn = document.querySelector('#saveScoreBtn')
-const finalScore = document.querySelector('#finalScore')
-const mostRecentScore = document.querySelector('#mostRecentScore')
-
-const highScores = JSON.parse(localStorage.getItem('highScores')) || []
-
-const MAX_HIGH_SCORES = 6
-
-finalScore.innerText = mostRecentScore
-
-username.addEventListener('keyup', () => {
-    saveScoreBtn.disabled = !username.value
-})
-
-saveHighScore = e => {
-    e.preventDefault()
-    
-    const score = {
-        score: mostRecentScore,
-        name: username.value
-    }
-
-    highScores.push(score)
-
-    highScores.sort((a,b) => {
-        return b.score - a.score
-    })
-
-    highScores.splice(6)
-
-    localStorage.setItem('highScores', JSON.stringify(highScores))
-    window.location.assign('/')
-    
-}
-
-// Highscores Javascript
