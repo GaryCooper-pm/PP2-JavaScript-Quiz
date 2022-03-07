@@ -28,7 +28,10 @@ For my second project I decided to create a short multiple choice quiz based on 
 
 # USER STORY
 ### Visitor to the website
-
+* As a user, I want to easily understand the main purpose of the game
+* As a user, I want the game to be fun
+* As a user, I want to be able to try something new
+* As a user, I want to see obvious and clear buttons to play the game
 
 # STRUCTURE
 
@@ -51,7 +54,7 @@ The only icons I used in the project were the Crown icon for the High Scores but
     * Each page was built using HTML5.
 * CSS
     * The styling, layout and media queries were done using CSS.
-* JavaScript
+* JavaScript ES6
     * The bulk of the quiz code was built using JavaScript.
 * Adobe Photoshop
     * The logo was edited to remove the white background to create the png file used.
