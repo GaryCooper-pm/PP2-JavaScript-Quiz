@@ -11,7 +11,7 @@ For my second project I decided to create a short multiple choice quiz based on 
 
 ---
 
-![Am I Responsive]
+![Am I Responsive](docs/images/ami-responsive.JPG)
 
 ---
 
