@@ -183,7 +183,7 @@ There was an issue with the Save button on the End Quiz page where by it was not
 
 Once I had deployed my project to GitHub Pages and ran through the quiz to test everything, I was met with a 404 page error after answering the final question.  The next screen/page was not being called.  After stepping through my code and chatting with fellow student [Chris Williams](https://github.com/Chr15w1986), I realised I had missed removing two of the absolute file paths in the script.js file and the endquiz.js file.
 
-After these were corrected and everything commit and pushed through I re-ran my tests and everything worked as it should.
+After these were corrected and everything commited and pushed through I re-ran my tests and everything worked as it should.
 
 
 # DEPLOYMENT
