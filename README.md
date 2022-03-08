@@ -5,9 +5,9 @@ Welcome to my second Code Institute diploma project.
 # Introduction and Overview
 For my second project I decided to create a short multiple choice quiz based on the popular TV series The Big Bang Theory.
 
-### **Live Project can be viewed:**
+### **Live Project can be viewed:**  [HERE](https://garycooper-pm.github.io/PP2-JavaScript-Quiz/)
 
-### **The repository can be found here:**
+### **The repository can be found here:**  [HERE](https://github.com/GaryCooper-pm/PP2-JavaScript-Quiz)
 
 ---
 
@@ -35,6 +35,13 @@ For my second project I decided to create a short multiple choice quiz based on 
 
 # STRUCTURE
 
+![Main Page](docs/images/mainpage.png)
+
+![Quiz Page](docs/images/quizpage.png)
+
+![End of Quiz Page](docs/images/endofquizpage.png)
+
+![Highscores / Leaderboard Page](docs/images/highscoresleaderboardpage.png)
 
 
 # DESIGN
@@ -45,19 +52,43 @@ I chose Source Code Pro from [Google Fonts](https://fonts.google.com/) as I felt
 I wanted to keep the color pallette simple, utilising the colors within the main logo.
 
 
+### Text Color
+![End of Quiz Page](docs/images/%23444.JPG)
+
+
+### Button Styling
+The buttons throughout the project have a mouseover zoom effect to help the user identify what they are about to click.  The question choices buttons also have a subtle linear gardient
+
+![General Button](docs/images/buttonstyling.JPG) ![Highscore Button](docs/images/highscorebuttonstyling.JPG)
+
+
+### Button Colors
+### Highscore Button Gradient
+![Highscore Button Gradient 1](docs/images/%23fb0.JPG) ![Highscore Button Gradient 2](docs/images/%23fb1.JPG)
+### Answer Choices Button Gradient
+![Choices Button Gradient 1](docs/images/%23d22.JPG) ![Choices Button Gradient 2](docs/images/%23d44.JPG)
+### Correct Choice Button Gradient
+![Correct Choice Button Gradient 1](docs/images/%23070.JPG) ![Correct Choice Button Gradient 2](docs/images/%23090.JPG)
+### Incorrect Choice Button Gradient
+![Incorrect Choice Button Gradient 1](docs/images/%23d60.JPG) ![Incorrect Choice Button Gradient 2](docs/images/%23f90.JPG)
+
+
 ### Icons
 The only icons I used in the project were the Crown icon for the High Scores button and the House icon for the Return Home button which were from [FontAwesome](https://fontawesome.com/).
+
 
 
 # TECHNOLOGIES USED
 * HTML
     * Each page was built using HTML5.
 * CSS
-    * The styling, layout and media queries were done using CSS.
-* JavaScript ES6
-    * The bulk of the quiz code was built using JavaScript.
+    * The styling, layout and media queries were done using CSS3.
+* JavaScript
+    * The bulk of the quiz code was built using JavaScript ES6.
 * Adobe Photoshop
     * The logo was edited to remove the white background to create the png file used.
+* Balsamiq
+    * The page wireframes were created using Balsamiq.
 * GITPOD
   * The IDE used to code this website.
 * GIT
