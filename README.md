@@ -11,7 +11,7 @@ For my second project I decided to create a short multiple choice quiz based on 
 
 ---
 
-![Am I Responsive](docs/images/ami-responsive.JPG)
+![Am I Responsive](docs/images/ami-responsive.jpg)
 
 ---
 
@@ -53,24 +53,24 @@ I wanted to keep the color pallette simple, utilising the colors within the main
 
 
 ### Text Color
-![End of Quiz Page](docs/images/%23444.JPG)
+![End of Quiz Page](docs/images/outerspace.jpg)
 
 
 ### Button Styling
 The buttons throughout the project have a mouseover zoom effect to help the user identify what they are about to click.  The question choices buttons also have a subtle linear gardient
 
-![General Button](docs/images/buttonstyling.JPG) ![Highscore Button](docs/images/highscorebuttonstyling.JPG)
+![General Button](docs/images/buttonstyling.jpg) ![Highscore Button](docs/images/highscorebuttonstyling.jpg)
 
 
 ### Button Colors
 ### Highscore Button Gradient
-![Highscore Button Gradient 1](docs/images/%23fb0.JPG) ![Highscore Button Gradient 2](docs/images/%23fb1.JPG)
+![Highscore Button Gradient 1](docs/images/chromeyellow.jpg) ![Highscore Button Gradient 2](docs/images/goldfinch.jpg)
 ### Answer Choices Button Gradient
-![Choices Button Gradient 1](docs/images/%23d22.JPG) ![Choices Button Gradient 2](docs/images/%23d44.JPG)
+![Choices Button Gradient 1](docs/images/enginered.jpg) ![Choices Button Gradient 2](docs/images/chromered.jpg)
 ### Correct Choice Button Gradient
-![Correct Choice Button Gradient 1](docs/images/%23070.JPG) ![Correct Choice Button Gradient 2](docs/images/%23090.JPG)
+![Correct Choice Button Gradient 1](docs/images/xmasgreen.jpg) ![Correct Choice Button Gradient 2](docs/images/green.jpg)
 ### Incorrect Choice Button Gradient
-![Incorrect Choice Button Gradient 1](docs/images/%23d60.JPG) ![Incorrect Choice Button Gradient 2](docs/images/%23f90.JPG)
+![Incorrect Choice Button Gradient 1](docs/images/tawny.jpg) ![Incorrect Choice Button Gradient 2](docs/images/tangerine.jpg)
 
 
 ### Icons
@@ -120,25 +120,25 @@ By creating separate game stage pages and JavaScript files for the different ele
 
 [Index html code pass](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgarycooper-pm.github.io%2FPP2-JavaScript-Quiz%2Findex.html)
 
-![W3C Validation](docs/images/indexhtml.JPG)
+![W3C Validation](docs/images/indexhtml.jpg)
 
 * Quiz page _quiz.html_
 
 [Quiz html code pass](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgarycooper-pm.github.io%2FPP2-JavaScript-Quiz%2Fquiz.html)
 
-![W3C Validation](docs/images/quizhtml.JPG)
+![W3C Validation](docs/images/quizhtml.jpg)
 
 * End of Quiz page _endquiz.html_
 
 [End of Quiz html code pass](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgarycooper-pm.github.io%2FPP2-JavaScript-Quiz%2Fendquiz.html)
 
-![W3C Validation](docs/images/endquizhtml.JPG)
+![W3C Validation](docs/images/endquizhtml.jpg)
 
 * High Scores / Leaderboard page _highscores.html_
 
 [High Scores / Leaderboard html code pass](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgarycooper-pm.github.io%2FPP2-JavaScript-Quiz%2Fhighscores.html)
 
-![W3C Validation](docs/images/highscoreshtml.JPG)
+![W3C Validation](docs/images/highscoreshtml.jpg)
 
 
 
@@ -148,33 +148,33 @@ By creating separate game stage pages and JavaScript files for the different ele
 
 [Style css code pass](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fgarycooper-pm.github.io%2FPP2-JavaScript-Quiz%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
-![W3C Validation](docs/images/stylecss.JPG)
+![W3C Validation](docs/images/stylecss.jpg)
 
 
 ### Passed my JavaScript code through Code Beautify [Code Beautify](https://codebeautify.org/jsvalidate)
 
 ### Checked responsiveness through [ami.responsivedesign.is website](http://ami.responsivedesign.is/)
 
-![Am I Responsive](docs/images/ami-responsive.JPG)
+![Am I Responsive](docs/images/ami-responsive.jpg)
 
 
 ### Checked accessibility through [Lighthouse](https://developers.google.com/web/tools/lighthouse)
 
 Main Page
 
-![Index](docs/images/lighthouse-index.JPG)
+![Index](docs/images/lighthouse-index.jpg)
 
 Quiz Page
 
-![Quiz](docs/images/lighthouse-quiz.JPG)
+![Quiz](docs/images/lighthouse-quiz.jpg)
 
 Enter Username Page
 
-![End Quiz](docs/images/lighthouse-endquiz.JPG)
+![End Quiz](docs/images/lighthouse-endquiz.jpg)
 
 Leaderboard/High Scores Page
 
-![End Quiz](docs/images/lighthouse-leaderboard.JPG)
+![End Quiz](docs/images/lighthouse-leaderboard.jpg)
 
 
 # BUGS AND PROBLEMS
@@ -244,6 +244,10 @@ My good friend Barry 'Bazzar' Martin for his ears, listening to me constantly wi
 
 Once again [Chris Williams](https://github.com/Chr15w1986) for being on the other end of the phone when I need to talk through issues.
 
-FINALLY - I dedicate this project to my father in-law Peter Clifford Lees who sadly passed away during the later stages of this project and was unable to see it completed.  R.I.P Peter!
+The [Stack Overflow Community](https://stackoverflow.com/) for providing pointers on storing highscores in local storage.
+
+Code Explained over on [YouTube](https://www.youtube.com/channel/UC8n8ftV94ZU_DJLOLtrpORA) for inspiration for the question progress bar.
+
+FINALLY - I dedicate this project to my father in-law Peter Clifford Lees who sadly passed away peacefully on 09/03/2022 and was unable to see it completed.  R.I.P Peter!
 
 ---
