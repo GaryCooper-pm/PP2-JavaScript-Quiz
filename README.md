@@ -151,7 +151,7 @@ By creating separate game stage pages and JavaScript files for the different ele
 ![W3C Validation](docs/images/stylecss.jpg)
 
 
-### Passed my JavaScript code through Code Beautify [Code Beautify](https://codebeautify.org/jsvalidate)
+### Passed my JavaScript code through JSHint and Code Beautify [Code Beautify](https://codebeautify.org/jsvalidate)
 
 ### Checked responsiveness through [ami.responsivedesign.is website](http://ami.responsivedesign.is/)
 
