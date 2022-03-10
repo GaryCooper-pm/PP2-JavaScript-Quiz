@@ -14,6 +14,8 @@
     font-family: 'Source Code Pro', sans-serif;
 }
 
+/* Content Styling */
+
 .logo {
     width: 20rem;
 }
@@ -96,7 +98,6 @@ h2 {
     margin-left: 1rem;
     margin-right: 1rem;
 }
-
 
 /* Quiz Page Styling */
 
@@ -224,6 +225,10 @@ input::placeholder {
 }
 
 @media screen and (max-width: 425px) {
+    .choice-container {
+        min-width: 25rem;
+    }
+
     h1 {
         font-size: 4rem;
     }
@@ -231,5 +236,4 @@ input::placeholder {
     h2 {
         font-size: 2.2rem;
     }
-
 }
