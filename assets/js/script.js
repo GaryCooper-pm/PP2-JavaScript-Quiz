@@ -5,6 +5,10 @@ const choices = Array.from(document.querySelectorAll('.choice-text'));
 const progressText = document.querySelector('#progressText');
 const scoreText = document.querySelector('#score');
 const progressBarFull = document.querySelector('#progressBarFull');
+const SCORE_POINTS = 10;
+const MAX_QUESTIONS = 20;
+
+// Questions Script
 
 let currentQuestion = {};
 let acceptingAnswers = true;
@@ -155,8 +159,7 @@ let questions = [
     }
 ];
 
-const SCORE_POINTS = 10;
-const MAX_QUESTIONS = 20;
+// Game Script
 
 startGame = () => {
     questionCounter = 0;
@@ -181,7 +184,7 @@ getNewQuestion = () => {
     question.innerText = currentQuestion.question;
 
     choices.forEach(choice => {
-        const number = choice.dataset['number'];
+        const number = choice.dataset.number;
         choice.innerText = currentQuestion['choice' + number];
     });
 
@@ -190,13 +193,15 @@ getNewQuestion = () => {
     acceptingAnswers = true;
 };
 
+// Event Listener Script
+
 choices.forEach(choice => {
     choice.addEventListener('click', e => {
         if(!acceptingAnswers) return;
 
         acceptingAnswers = false;
         const selectedChoice = e.target;
-        const selectedAnswer = selectedChoice.dataset['number'];
+        const selectedAnswer = selectedChoice.dataset.number;
 
         let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect';
 
@@ -212,6 +217,8 @@ choices.forEach(choice => {
         }, 1000);
     });
 });
+
+// Score Script
 
 incrementScore = num => {
     score +=num;
