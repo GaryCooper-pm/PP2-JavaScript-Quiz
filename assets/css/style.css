@@ -222,6 +222,24 @@ input::placeholder {
     .choice-container {
         min-width: 40rem;
     }
+
+    h1 {
+        font-size: 4.5rem;
+    }
+
+    h2 {
+        font-size: 2.7rem;
+    }
+
+    #highScoresList {
+        list-style: none;
+        margin-bottom: 3rem;
+    }
+    
+    .high-score {
+        font-size: 2.3rem;
+        margin-bottom: 0.5rem;
+    }
 }
 
 @media screen and (max-width: 425px) {
@@ -235,5 +253,15 @@ input::placeholder {
 
     h2 {
         font-size: 2.2rem;
+    }
+
+    #highScoresList {
+        list-style: none;
+        margin-bottom: 2.5rem;
+    }
+    
+    .high-score {
+        font-size: 1.8rem;
+        margin-bottom: 0.5rem;
     }
 }
