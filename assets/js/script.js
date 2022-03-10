@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 // Quiz JavaScript
 
 const question = document.querySelector('#question');

@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 // End Quiz Javascript
 
 const username = document.querySelector('#username');
